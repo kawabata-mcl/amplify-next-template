@@ -11,7 +11,7 @@ Amplify.configure(outputs);
 
 export default function App() {
   return (
-    <Authenticator hideSignUp={true}>
+    <Authenticator>
       {({ signOut }) => (
         <>
           <Button onClick={signOut}>Sign Out</Button>
